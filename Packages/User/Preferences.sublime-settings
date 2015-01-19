@@ -58,10 +58,10 @@
 	"ignored_packages":
 	[
 		"SublimeLinter",
-		"Vintage",
-		"SublimeLinter-jshint",
 		"SideBarEnhancements",
-		"PlainTasks"
+		"PlainTasks",
+		"Vintage",
+		"SublimeLinter-jshint"
 	],
 	"indent_guide_options":
 	[
