@@ -1,0 +1,34 @@
+<snippet>
+    <content><![CDATA[
+module.exports = function(grunt) {
+
+  // Project configuration.
+  grunt.initConfig({
+    pkg: grunt.file.readJSON('package.json'),
+    dirWebRoot: {
+        src: '${1:rootpath}'
+    },    
+    dirsJS: {
+        src     : '<%= dirWebRoot.src %>${2:js}/'
+    },  
+    dirsCSS: {
+        ${3:preprocessador}    : '<%= dirWebRoot.src %>${4:preprocessador}/',
+        css     : '<%= dirWebRoot.src %>${5:css}/'
+    }
+  });
+
+  // Load the plugins.
+  grunt.loadNpmTasks('${6:task}');
+
+  // Default task(s).
+  grunt.registerTask('default', ['${7:task}']);
+  //grunt.registerTask('development', ['']);
+  //grunt.registerTask('production', ['']);
+
+};
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>gruntfile</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

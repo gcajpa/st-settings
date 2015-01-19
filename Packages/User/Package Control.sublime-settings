@@ -1,0 +1,33 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2"
+	],
+	"installed_packages":
+	[
+		"AngularJS",
+		"Color Highlighter",
+		"DashDoc",
+		"EditorConfig",
+		"Emmet",
+		"GitGutter",
+		"JavaScript & NodeJS Snippets",
+		"LESS",
+		"Package Control",
+		"PlainTasks",
+		"Sass",
+		"SFTP",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-contrib-scss-lint",
+		"SublimeLinter-csslint",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
+		"SublimeLinter-php",
+		"Terminal"
+	]
+}

@@ -1,0 +1,56 @@
+<snippet>
+    <content><![CDATA[
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Título</title>
+    <meta name="description" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://plus.google.com/xxxxxxxxxxxxxxxx" rel="publisher">
+    <link rel="canonical" href="index.html">
+
+    <link href="/favicon.ico" type="image/x-icon" rel="icon">
+    <link href="/favicon.ico" type="image/x-icon" rel="shortcut icon">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <!--[if lt IE 7]>
+            <p class="browsehappy">Você está usando um browser <strong>antigo</strong>. Por favor <a href="http://browsehappy.com/">atualize seu navegador</a>.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <p>Olá mundo bonito!</p>
+
+    <script src="js/jquery.js"></script>
+    <script>
+        jQuery(function(){
+
+        });
+    </script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+</body>
+</html>
+]]></content>
+    <tabTrigger>htmlbase</tabTrigger>
+    <description>HTML - Structure for HTML 5</description>
+    <!-- <scope>source.html, source.htm</scope> -->
+</snippet>

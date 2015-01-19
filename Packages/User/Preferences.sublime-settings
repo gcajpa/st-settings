@@ -1,0 +1,20 @@
+{
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
+	"draw_white_space": "all",
+	"font_size": 11,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"SublimeLinter",
+		"Vintage",
+		"SublimeLinter-jshint",
+		"SideBarEnhancements",
+		"PlainTasks"
+	],
+	"rulers":
+	[
+		100
+	],
+	"translate_tabs_to_spaces": true
+}
