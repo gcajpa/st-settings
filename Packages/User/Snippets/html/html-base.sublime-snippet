@@ -32,9 +32,7 @@
 
     <script src="js/jquery.js"></script>
     <script>
-        jQuery(function(){
-
-        });
+        jQuery(function(){});
     </script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
